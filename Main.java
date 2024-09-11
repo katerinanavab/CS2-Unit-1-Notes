@@ -14,6 +14,23 @@ public class Main {
       System.out.print("apcs");
       System.out.print("is fun");
 
+      // DECLARE VARIABLES
+      int students;
+      boolean isRaining; // camelCase for multi-word names
+      double cash;
+
+      // ASSIGN VALUES to the variables
+      students = 8;
+      cash = 5.00;
+      isRaining = false; // false is "off", or 0
+
+      // INSTANTIATE or INITIALIZE (declare + assign in one line)
+      int numClasses = 9;
+      double gpa = 3.4;
+      boolean isSnowy = false;
+
+
+
 
 
    }
