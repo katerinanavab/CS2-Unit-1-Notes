@@ -70,8 +70,34 @@ public class Main {
 
       // there are shortcuts for multiplication and division too
       score /= 3; // returns 2, same operation as score = score/3;
-      score *= 732; // returns 1464, same op. as score = score*732; 
+      score *= 732; // returns 1464, same op. as score = score*732;
+      
+      // CASTING
+      // casting from a DOUBLE to an INT results in TRUNCATING
+      double g = 9.81; 
+      int g_cast = (int) g;
+      System.out.println(g_cast);
 
+      // casting from an INT to a DOUBLE is a WIDENING CONVERSION
+      int num = 10;
+      double num_cast = (double) num;
+
+      // ROUNDING BY CASTING
+      double posNumber = 6.78;
+      double negNumber = -273.15;
+
+      // round a positive num to the nearest Int
+      int nearestPosInt = (int)(posNumber + 0.5);
+      System.out.println(nearestPosInt);
+      // round a negative num to the nearest Int
+      int nearestNegInt = (int)(negNumber - 0.5);
+      System.out.println(nearestNegInt);
+
+      // NOTE: primitive types take up different amts of MEMORY
+      System.out.println(Integer.MIN_VALUE);
+      System.out.println(Integer.MAX_VALUE);
+
+      //int badInteger = 9147483647;
 
 
    }
